@@ -41,10 +41,13 @@ p{
 }
 body{
     background-color: var(--main-bg-alb);
-    max-width: 1440px; 
+    max-width: 1920px; 
 	margin: 0 auto !important; 
 	float: none !important; 
+    padding-left:150px;
+    padding-right:150px;
 }
+
 
 html *{
     font-family: 'Epilogue';
@@ -311,6 +314,10 @@ border-right: 1px solid gray;
 }
 .text-alb-mobil{
     color: white;
+}
+body{
+    padding-left:0px;
+    padding-right:0px;
 }
 }
 @media only screen and (min-width: 800px) {
