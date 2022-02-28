@@ -238,6 +238,20 @@ border-right: 1px solid gray;
 .elemente-blog h2{
     max-width: 30%;
 }
+.border-intrebari{
+    border: 1px solid #F3D1BF;
+}
+.border-avantaje{
+    border: 0px solid #F3D1BF;
+}
+
+.no-padding{
+    padding:0px
+}
+
+.padding {
+    padding:20px
+}
 
 /* modificari bootstrap */
 
@@ -250,6 +264,10 @@ border-right: 1px solid gray;
 
 .btn{
     box-shadow: none;
+    
+}
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus{
+    outline:0px;
 }
 
 
