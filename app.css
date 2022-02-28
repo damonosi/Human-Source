@@ -1,7 +1,7 @@
 :root {
   --main-brand-rosu: #B82C2F;
   --main-bg-gri: #383A3C;
-  --main-bg-alb: #E5E5E5;
+  --main-bg-alb: #ffff;
 }
 
 h1{
@@ -49,6 +49,7 @@ body{
 html *{
     font-family: 'Epilogue';
     overflow-x: hidden;
+    
 }
 
 .button-servicii{
@@ -65,16 +66,18 @@ html *{
     width: 279px;
     height: 48px;
     color: black;
+    overflow-y: hidden;
     
 }
 .button-servicii:hover{
     background-color: var(--main-brand-rosu);
     color:var(--main-bg-alb);
 }
-.button-servicii > span{
+.button-servicii span{
     font-weight: 900;
     font-size: 14px;
     line-height: 14.35px;
+    overflow-y: hidden;
 }
 
 
