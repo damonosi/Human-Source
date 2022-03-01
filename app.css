@@ -44,8 +44,7 @@ body{
     max-width: 1920px; 
 	margin: 0 auto !important; 
 	float: none !important; 
-    padding-left:150px;
-    padding-right:150px;
+    
 }
 
 
@@ -66,7 +65,7 @@ html *{
     padding:20px;
     font-size:0.875rem;
     font-weight: bold;
-    width: 279px;
+    width: 17.4375em;
     height: 48px;
     color: black;
     overflow-y: hidden;
@@ -273,6 +272,16 @@ border-right: 1px solid gray;
     outline:0px;
 }
 
+.caret.caret-up {
+    border-top-width: 0;
+    border-bottom: 4px solid white;
+  }
+.caret {
+    border-bottom-width: 0;
+    border-top: 4px solid white;
+  }
+
+
 
 
 
@@ -348,6 +357,9 @@ body{
 }
 .central-row span {
     margin:10px;
+}
+.padding{
+    padding-left:20px;
 }
 
 
