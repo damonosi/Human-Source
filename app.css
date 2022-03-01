@@ -93,12 +93,16 @@ html *{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
     margin-top:20px;
     margin-bottom:20px;
 }
 .centator img{
     max-width: 400px;
+}
+
+.row-direction{
+    flex-direction: row;
+    align-items: center;
 }
 
 
@@ -301,7 +305,6 @@ border-right: 1px solid gray;
 }
 .back-gri-mobil{
     background-color: var(--main-brand-gri);
-    
 }
 
 .container-aliniere-stanga{
