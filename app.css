@@ -262,6 +262,17 @@ border-right: 1px solid gray;
     padding:0px
 }
 
+.setare-width{
+    display: flex;
+    flex-direction: column;
+    max-width: 1170px;
+    justify-content: center;
+    
+}
+
+.padding-text{
+    padding:20px
+}
 
 
 /* modificari bootstrap */
@@ -289,14 +300,6 @@ border-right: 1px solid gray;
     border-bottom-width: 0;
     border-top: 4px solid white;
   }
-
-
- 
-
-
-
-
-
 
 
 
