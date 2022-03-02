@@ -1,3 +1,5 @@
+// sageti dropdown
+
 let sageata1 = document.getElementById("1");
 let sageata2 = document.getElementById("2");
 let sageata3 = document.getElementById("3");
