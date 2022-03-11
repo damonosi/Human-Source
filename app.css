@@ -54,6 +54,8 @@ html *{
     
 }
 
+/* butoane */
+
 .button-servicii{
     background-color: var(--main-brand-rosu);
     display: flex;
@@ -86,38 +88,26 @@ html *{
 }
 
 
+.buton-aboneaza{
+    border: 1px solid rgba(255, 255, 255, 0.295743);
+    box-sizing: border-box;
+    border-radius: 6px;
+    width :184px;
+    height: 48px;
+    background-color: transparent;
+    color: white;
 
-
-.central{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    
-}
-.centator{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top:20px;
-    margin-bottom:20px;
-}
-.centator img{
-    max-width: 400px;
-}
-.centator-imagine{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-.row-direction{
+.buton-dropdown{
+    display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+    padding:20px;
+    
+    
 }
-
-
-
-
 
 .vertical-line{
      width: 1px; /* Line width */
@@ -125,12 +115,10 @@ html *{
       height: 100%; /* Override in-line if you want specific height. */
      }
 
-.container-drop-button{
-    display: flex;
-    
-    justify-content: center;
-    
-}
+
+
+/* clase helper custom */
+
 
 .full{
     width:100%;
@@ -143,6 +131,7 @@ html *{
     justify-content: center;
     background-color: var(--main-brand-rosu);
     border-radius: 100%;
+    overflow: hidden;
 }
 .transparent{
     background-color: transparent;
@@ -165,36 +154,10 @@ html *{
 .text-alb{
     color:white
 }
-.text-centru{
-    text-align: center;
-    
-}
 
-.caseta-servicii{
-    border: 1px solid #F3D1BF;
-    max-width:391px;
-    border-radius: 6px 6px 0px 0px;
-    padding:3.75rem;
-    background-color: white;
-}
 
-.container-aliniere-mijloc{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding:20px;
-}
-.container-aliniere-stanga{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding:20px;
-   
-}
-
-.blank-space{
-    height:20vh;
-    width: 100%;
+.no-padding-top{
+    padding-top:0px !important;
 }
 
 .ajustare-sus{
@@ -211,15 +174,6 @@ html *{
     margin-bottom: 60px;
 }
 
-.buton-dropdown{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding:20px;
-    
-    
-}
 .show-overflow{
     overflow: visible;
 }
@@ -235,6 +189,70 @@ html *{
 .ajustare-sus-blog-text{
     margin-top: -180px;
 }
+
+
+.padding-text{
+    padding:20px
+}
+
+.margin-text{
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+.no-top-margin{
+    margin-top: 0px !important;
+}
+
+
+
+
+
+
+/* containere */
+
+
+.central{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+.centator{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.centator-imagine{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-drop-button{
+    display: flex;
+    
+    justify-content: center;
+    
+}
+
+.container-imagine{
+    margin-left:101px;
+    margin-right:101px;
+}
+.container-imagine img{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.row-direction{
+    flex-direction: row;
+    align-items: center;
+}
+
 .card-avantaje{
     display: flex;
     flex-direction: row;
@@ -298,13 +316,73 @@ html *{
     
 }
 
-.padding-text{
-    padding:20px
+.caseta-servicii{
+    border: 1px solid #F3D1BF;
+    max-width:391px;
+    border-radius: 6px 6px 0px 0px;
+    padding:3.75rem;
+    background-color: white;
 }
 
-.margin-text{
-    margin-top:30px;
-    margin-bottom:30px;
+.container-aliniere-mijloc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:20px;
+}
+.container-aliniere-stanga{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding:20px;
+   
+}
+
+.blank-space{
+    height:20vh;
+    width: 100%;
+}
+
+
+
+.container-aboneaza{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    border-top: 1px solid #FCFEFF;
+    border-bottom: 1px solid #FCFEFF;
+    padding-top:40px;
+    padding-bottom:40px;
+
+}
+
+.input-container  input{
+    height:48px;
+    width: 384px;
+}
+
+.caseta-firma{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 24px 32px;
+    
+    
+}
+.container-firme{
+    display: flex;
+    flex-direction: row;
+    background: #FFFFFF;
+    box-shadow: 0px -15px 15px rgba(0, 0, 0, 0.02), 0px 15px 15px rgba(0, 0, 0, 0.02);
+    border-radius: 5px;
+
+}
+#caseta-firme{
+    padding:16px;
+    
 }
 
 /* text */
@@ -339,9 +417,9 @@ line-height: 64px;
     letter-spacing: 0.01em;
 }
 
-.first-text > button{
+.first-text  div{
     position: absolute;
-width: 243px;
+    
 bottom:0;
 left:0;
 
@@ -357,6 +435,7 @@ left:0;
 
 .border-avantaje-caseta{
     border: 1px solid #BFBCBC;
+    border-radius: 5px;
 }
 
 
@@ -513,6 +592,10 @@ all and (min-width: 992px) and (-webkit-transform-3d) {
    }
 }
 
+.carousel-inner img{
+    border-radius: 6px;
+}
+
 /* modificari bootstrap */
 
 .dropdown-menu{
@@ -525,11 +608,19 @@ all and (min-width: 992px) and (-webkit-transform-3d) {
 
 .dropdown {
     border-bottom:1px solid #BFBCBC;
+    background-color: #FCF8F8;
+}
+.buton-dropdown  img{
+    width: 60px;
+    height: 60px;
 }
 .dropdown-menu{
     border-top:1px solid #BFBCBC;
 }
 
+.open{
+    background-color: #FFFFFF ;
+}
 
 .btn{
     box-shadow: none;
@@ -542,16 +633,28 @@ all and (min-width: 992px) and (-webkit-transform-3d) {
 .caret.caret-up {
     border-top-width: 0;
     border-bottom: 4px solid white;
+    
   }
 .caret {
     border-bottom-width: 0;
     border-top: 4px solid white;
+   
+    
+    
   }
 
 
+#card-intrebari .dropdown-menu {
+    border-top: 0px ;
+}
 
 
-
+.central-row span{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
 
 
 @media only screen and (max-width: 800px) {
@@ -565,7 +668,7 @@ all and (min-width: 992px) and (-webkit-transform-3d) {
     padding:0px;
 }
 .back-gri-mobil{
-    background-color: var(--main-brand-gri);
+    background-color: var(--main-brand-rosu);
 }
 
 .container-aliniere-stanga{
@@ -593,6 +696,80 @@ all and (min-width: 992px) and (-webkit-transform-3d) {
 .setare-width{
     padding-top:20px;
     padding-bottom:50px;
+}
+.container-aboneaza{
+    flex-direction: column;
+}
+.container-aboneaza h2{
+    margin-bottom: 50px;
+}
+
+.input-container input{
+    width: 100%;
+    height: 48px;
+    margin-bottom: 16px;
+}
+
+.buton-aboneaza{
+    width: 100%;
+}
+
+.first-text{
+    margin-top: 60px;
+    height: fit-content;
+}
+.first-text div{
+    position: relative;
+}
+
+.first-text-buton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.border-avantaje-caseta{
+    border: 0px solid #BFBCBC;
+    
+}
+.border-avantaje-caseta h2{
+    margin-bottom:40px;
+}
+.text-alb-desktop{
+    color: black;
+}
+/* bootstrap */ 
+
+.dropdown{
+    background-color: #FCFEFF;
+}
+.padding-mobil{
+    padding:20px;
+}
+.container-imagine{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.invers-mobil{
+    flex-direction: column-reverse;
+   
+}
+.invers-mobil > *{
+    margin-top:30px;
+    margin-bottom:30px;
+    width: 100%;
+   
+}
+.container-firme{
+    display: flex;
+    flex-direction: column;
+}
+.central-row{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 20px;
 }
 
 }
@@ -632,7 +809,9 @@ all and (min-width: 992px) and (-webkit-transform-3d) {
 .central-row span {
     margin:10px;
 }
-
+.text-alb-desktop{
+    color: black;
+}
 
 
  
