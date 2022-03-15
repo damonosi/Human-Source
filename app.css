@@ -116,7 +116,13 @@ html *{
       height: 100%; /* Override in-line if you want specific height. */
      }
 
-
+.buton-afla{
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding: 16px 46px;
+    margin: 10px 0px;
+}
 
 /* clase helper custom */
 
@@ -303,7 +309,7 @@ html *{
     max-width: 30%;
 }
 .border-intrebari{
-    border: 1px solid #F3D1BF;
+    border: 1px solid rgba(56, 58, 60, 0.25);
 }
 .border-avantaje{
     border: 0px solid #F3D1BF;
@@ -327,9 +333,9 @@ html *{
 }
 
 .caseta-servicii{
-    border: 1px solid #F3D1BF;
+    
     max-width:391px;
-    border-radius: 6px 6px 0px 0px;
+    
     padding:3.75rem;
     background-color: white;
 }
@@ -361,8 +367,10 @@ html *{
     justify-content: space-between;
     align-items: center;
 
-    border-top: 1px solid #FCFEFF;
-    border-bottom: 1px solid #FCFEFF;
+    border-top: 1px solid  rgba(252, 254, 255, 0.25);
+;
+    border-bottom: 1px solid  rgba(252, 254, 255, 0.25);
+;
     padding-top:40px;
     padding-bottom:40px;
 
