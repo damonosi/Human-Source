@@ -73,7 +73,8 @@ html *{
     overflow-y: hidden;
     white-space: nowrap;
    text-align: center;
-   width: 279px;
+   width: 243px;
+   height: 72px;
     
 }
 .button-servicii:hover{
@@ -204,6 +205,11 @@ html *{
     margin-top: 0px !important;
 }
 
+.back-alb{
+    background-color: var(--main-bg-alb);
+}
+
+
 
 
 
@@ -211,6 +217,10 @@ html *{
 
 /* containere */
 
+
+.card-avantaje * {
+    overflow: hidden;
+}
 
 .central{
     display: flex;
@@ -367,6 +377,7 @@ html *{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
     align-items: flex-start;
     padding: 24px 32px;
     
@@ -375,10 +386,21 @@ html *{
 .container-firme{
     display: flex;
     flex-direction: row;
+    position: relative;
     background: #FFFFFF;
     box-shadow: 0px -15px 15px rgba(0, 0, 0, 0.02), 0px 15px 15px rgba(0, 0, 0, 0.02);
     border-radius: 5px;
 
+}
+.container-firme hr{
+    position: absolute;
+    
+    
+    border:1px solid rgba(196, 196, 196, 0.25);
+    
+
+    
+    
 }
 #caseta-firme{
     padding:16px;
@@ -496,6 +518,10 @@ left:0;
 
 .carousel .item .col-xs-12 {
    padding: 0;
+}
+
+.carousel  i {
+    overflow: hidden;
 }
 
 
@@ -659,7 +685,7 @@ all and (min-width: 992px) and (-webkit-transform-3d) {
 
 @media only screen and (max-width: 800px) {
   .nevazut-mobil{
-    display: none;
+    display: none !important;
 }
 .padding{
     padding:20px;
@@ -668,7 +694,7 @@ all and (min-width: 992px) and (-webkit-transform-3d) {
     padding:0px;
 }
 .back-gri-mobil{
-    background-color: var(--main-brand-rosu);
+    background-color: var(--main-bg-gri);
 }
 
 .container-aliniere-stanga{
@@ -771,6 +797,11 @@ all and (min-width: 992px) and (-webkit-transform-3d) {
     flex-direction: column;
     padding: 20px;
 }
+.container-firme hr{
+    bottom:0;
+   
+    width: 100%;
+}
 
 }
 
@@ -812,7 +843,10 @@ all and (min-width: 992px) and (-webkit-transform-3d) {
 .text-alb-desktop{
     color: black;
 }
-
+.container-firme hr{
+    right:0;
+     height:90%;
+}
 
  
 
