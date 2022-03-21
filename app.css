@@ -230,14 +230,14 @@ html *{
     background-color: var(--main-bg-alb);
 }
 
-li span {
+.dropdown-menu span {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 32px;
 }
 
-li img{
+.dropdown-menu img{
     overflow: hidden;
 }
 .caseta-firma{
@@ -322,6 +322,8 @@ color: #383A3C;
 .container-imagine img{
     margin-top:10px;
     margin-bottom:10px;
+    width :446.55px;
+    height :420.53px;
 }
 
 .row-direction{
@@ -335,6 +337,10 @@ color: #383A3C;
     align-items: center;
     justify-content: center;
     padding: 20px 0px;
+}
+.card-avantaje img{
+    width: 110px;
+    height: 110px;
 }
 .card-avantaje > div{
     margin:20px;
