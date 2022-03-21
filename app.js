@@ -1,3 +1,5 @@
+import lottieWeb from "https://cdn.skypack.dev/lottie-web";
+
 // sageti dropdown
 
 let sageata1 = document.getElementById("1");
@@ -164,4 +166,13 @@ $(document).ready(function () {
     var slide = $(Parent).attr("data-slide");
     ResCarousel(ell, Parent, slide);
   }
+});
+
+// lottie
+var animation = bodymovin.loadAnimation({
+  container: document.getElementById("container-lottie"),
+  renderer: "svg",
+  loop: true,
+  autoplay: true,
+  path: "https://assets9.lottiefiles.com/packages/lf20_5n8yfkac.json", // lottie file path
 });
