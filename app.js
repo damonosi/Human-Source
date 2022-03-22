@@ -1,5 +1,3 @@
-import lottieWeb from "https://cdn.skypack.dev/lottie-web";
-
 // sageti dropdown
 
 let sageata1 = document.getElementById("1");
@@ -170,9 +168,9 @@ $(document).ready(function () {
 
 // lottie
 var animation = bodymovin.loadAnimation({
-  container: document.getElementById("container-lottie"),
+  container: document.getElementById("animContainer"),
   renderer: "svg",
   loop: true,
   autoplay: true,
-  path: "https://assets9.lottiefiles.com/packages/lf20_5n8yfkac.json", // lottie file path
+  path: "casa_lottie.json",
 });

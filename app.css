@@ -58,10 +58,10 @@ html *{
 
 
 
-#container-lottie {
-
- width: 100%;
-  height: 100%;
+#animContainer {
+overflow: hidden;
+ width: 549.46px;
+  height: 513px;
  
 }
 
@@ -282,6 +282,14 @@ color: #383A3C;
 
 
 /* containere */
+
+
+.first-text {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
 
 
 .card-avantaje * {
@@ -676,13 +684,14 @@ line-height: 64px;
     margin-bottom: 16px;
 }
 
-.buton-aboneaza{
+.buton-aboneaza {
     width: 100%;
 }
 
-.first-text{
+.first-text {
     margin-top: 60px;
-    height: fit-content;
+    height: 100%;
+    
 }
 
 
@@ -692,7 +701,9 @@ line-height: 64px;
     justify-content: center;
     position: relative;
     align-items: center;
+    
     padding: 26px 40px 24px;
+    bottom:0px;
 }
 
 .border-avantaje-caseta{
@@ -787,6 +798,11 @@ line-height: 64px;
 .container-firme hr{
     right:0;
      height:90%;
+}
+
+.first-text-buton {
+    position: absolute;
+    bottom: 0;
 }
 
  
